@@ -11,7 +11,7 @@ print("Nhập D với Dễ, TB với Trung Bình, K với Khó")
 while True: 
     lvl = input("Nhập cấp độ: ")
     if lvl == "D": 
-        rd = r.randint(1, 15)
+        rd = r.randint(1, 10)
         p = 0
         attempts = 5
         print("Tôi đang nghĩ một số giữa 1 và 10. Bạn hãy đoán số may mắn đó giúp tôi. ")
